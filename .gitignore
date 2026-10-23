@@ -1,0 +1,22 @@
+# Terraform state & local execution files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+
+# Private Keys (never commit private keys)
+*.pem
+*.key
+*.pub
+
+# AWS Credentials & Secrets (never commit secrets)
+*.csv
+*accessKeys*
+*.tfvars
+*.tfvars.json
+.env
+
+# OS metadata
+.DS_Store
+Thumbs.db
